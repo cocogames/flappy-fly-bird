@@ -31,12 +31,12 @@ class ScoresScene: RoutingUtilityScene {
         
         if let bestScoreLabel = self.scene?.childNode(withName: "Best Score Label") as? SKLabelNode {
             let bestScore = UserDefaults.standard.integer(for: .bestScore)
-            bestScoreLabel.text = "Best: \(bestScore)"
+            bestScoreLabel.text = "最佳: \(bestScore)"
         }
         
         if let lastScoreLabel = self.scene?.childNode(withName: "Last Score Label") as? SKLabelNode {
             let lastScore = UserDefaults.standard.integer(for: .lastScore)
-            lastScoreLabel.text = "Last: \(lastScore)"
+            lastScoreLabel.text = "最新: \(lastScore)"
         }
     }
 }

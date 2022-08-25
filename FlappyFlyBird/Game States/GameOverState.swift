@@ -122,11 +122,11 @@ extension GameOverState {
         
         if let bestScoreLabel = contentNode.childNode(withName: "Best Score") as? SKLabelNode {
             let bestScore = UserDefaults.standard.integer(for: .bestScore)
-            bestScoreLabel.text = "Best Score: \(bestScore)"
+            bestScoreLabel.text = "最佳得分: \(bestScore)"
         }
         
         if let currentScore = contentNode.childNode(withName: "Current Score") as? SKLabelNode {
-            currentScore.text = "Current Score: \(levelScene.score)"
+            currentScore.text = "此次得分: \(levelScene.score)"
         }
     }
 }
