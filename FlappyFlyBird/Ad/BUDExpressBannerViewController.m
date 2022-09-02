@@ -14,9 +14,7 @@
 #import "NSString+LocalizedString.h"
 #import "AppDelegate.h"
 #import "UIColor+DarkMode.h"
-#ifdef DEBUG
-#import <MBProgressHUD/MBProgressHUD.h>
-#endif
+
 @interface BUDExpressBannerViewController ()<BUNativeExpressBannerViewDelegate>
 @property(nonatomic, strong) BUDSelectedView *selectedView;
 @property(nonatomic, strong) BUNativeExpressBannerView *bannerView;
@@ -178,14 +176,7 @@
 }
 
 - (void)nativeExpressBannerAdViewDidRemoved:(BUNativeExpressBannerView *)nativeExpressAdView {
-#ifdef DEBUG
-    [MBProgressHUD showHUDAddedTo:self.view.window animated:YES];
-    MBProgressHUD *hud = [MBProgressHUD HUDForView:self.view.window];
-    hud.mode = MBProgressHUDModeText;
-    hud.label.text = @"温馨提示";
-    hud.detailsLabel.text = @"强制关闭广告，开发者请做好布局处理";
-    [hud hideAnimated:YES afterDelay:1.5];
-#endif
+
     [UIView animateWithDuration:0.25 animations:^{
         nativeExpressAdView.alpha = 0;
     } completion:^(BOOL finished) {

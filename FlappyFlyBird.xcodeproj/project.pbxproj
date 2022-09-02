@@ -103,6 +103,12 @@
 		EE6E897028C210AC005FEE8B /* BUDSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6E896F28C210AC005FEE8B /* BUDSelectedView.m */; };
 		EE6E897328C2113A005FEE8B /* BUDNormalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6E897228C2113A005FEE8B /* BUDNormalButton.m */; };
 		EE6E897628C211E0005FEE8B /* BUDSelectedCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6E897528C211E0005FEE8B /* BUDSelectedCollectionViewCell.m */; };
+		EE6E897928C213C1005FEE8B /* UIView+Draw.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6E897828C213C1005FEE8B /* UIView+Draw.m */; };
+		EE6E897C28C21443005FEE8B /* BUDSelcetedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6E897B28C21443005FEE8B /* BUDSelcetedItem.m */; };
+		EE6E897F28C214F8005FEE8B /* NSString+LocalizedString.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6E897E28C214F8005FEE8B /* NSString+LocalizedString.m */; };
+		EE6E898128C21574005FEE8B /* BUDemoLanguage.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE6E898028C21574005FEE8B /* BUDemoLanguage.strings */; };
+		EE6E898428C2164C005FEE8B /* UIColor+DarkMode.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6E898328C2164C005FEE8B /* UIColor+DarkMode.m */; };
+		EE6E898728C216CE005FEE8B /* BUDExampleDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6E898628C216CE005FEE8B /* BUDExampleDefine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -213,6 +219,18 @@
 		EE6E897228C2113A005FEE8B /* BUDNormalButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BUDNormalButton.m; sourceTree = "<group>"; };
 		EE6E897428C211B9005FEE8B /* BUDSelectedCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BUDSelectedCollectionViewCell.h; sourceTree = "<group>"; };
 		EE6E897528C211E0005FEE8B /* BUDSelectedCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BUDSelectedCollectionViewCell.m; sourceTree = "<group>"; };
+		EE6E897728C21398005FEE8B /* UIView+Draw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Draw.h"; sourceTree = "<group>"; };
+		EE6E897828C213C1005FEE8B /* UIView+Draw.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Draw.m"; sourceTree = "<group>"; };
+		EE6E897A28C2141C005FEE8B /* BUDSelcetedItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BUDSelcetedItem.h; sourceTree = "<group>"; };
+		EE6E897B28C21443005FEE8B /* BUDSelcetedItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BUDSelcetedItem.m; sourceTree = "<group>"; };
+		EE6E897D28C214B1005FEE8B /* NSString+LocalizedString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+LocalizedString.h"; sourceTree = "<group>"; };
+		EE6E897E28C214F8005FEE8B /* NSString+LocalizedString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+LocalizedString.m"; sourceTree = "<group>"; };
+		EE6E898028C21574005FEE8B /* BUDemoLanguage.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = BUDemoLanguage.strings; sourceTree = "<group>"; };
+		EE6E898228C21626005FEE8B /* UIColor+DarkMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+DarkMode.h"; sourceTree = "<group>"; };
+		EE6E898328C2164C005FEE8B /* UIColor+DarkMode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+DarkMode.m"; sourceTree = "<group>"; };
+		EE6E898528C216A9005FEE8B /* BUDExampleDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BUDExampleDefine.h; sourceTree = "<group>"; };
+		EE6E898628C216CE005FEE8B /* BUDExampleDefine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BUDExampleDefine.m; sourceTree = "<group>"; };
+		EE6E898828C21768005FEE8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -332,6 +350,7 @@
 			children = (
 				EE6E895E28C208AA005FEE8B /* Ad */,
 				A9ACB91C2099A1F200966991 /* AppDelegate.swift */,
+				EE6E898828C21768005FEE8B /* AppDelegate.h */,
 				A9ACB92E2099A1F300966991 /* Info.plist */,
 				A9ACB9932099F16800966991 /* Storyboards */,
 				A9ACB9922099F15E00966991 /* View Controllers */,
@@ -610,6 +629,17 @@
 				EE6E897228C2113A005FEE8B /* BUDNormalButton.m */,
 				EE6E897428C211B9005FEE8B /* BUDSelectedCollectionViewCell.h */,
 				EE6E897528C211E0005FEE8B /* BUDSelectedCollectionViewCell.m */,
+				EE6E897728C21398005FEE8B /* UIView+Draw.h */,
+				EE6E897828C213C1005FEE8B /* UIView+Draw.m */,
+				EE6E897A28C2141C005FEE8B /* BUDSelcetedItem.h */,
+				EE6E897B28C21443005FEE8B /* BUDSelcetedItem.m */,
+				EE6E897D28C214B1005FEE8B /* NSString+LocalizedString.h */,
+				EE6E897E28C214F8005FEE8B /* NSString+LocalizedString.m */,
+				EE6E898028C21574005FEE8B /* BUDemoLanguage.strings */,
+				EE6E898228C21626005FEE8B /* UIColor+DarkMode.h */,
+				EE6E898328C2164C005FEE8B /* UIColor+DarkMode.m */,
+				EE6E898528C216A9005FEE8B /* BUDExampleDefine.h */,
+				EE6E898628C216CE005FEE8B /* BUDExampleDefine.m */,
 			);
 			path = Ad;
 			sourceTree = "<group>";
@@ -713,6 +743,7 @@
 				A9A313A520B026E000B36175 /* FailedScene iPad.sks in Resources */,
 				A9B14F1B20A5796E005221BA /* clock-tick.mp3 in Resources */,
 				A935954E20C27B81000FF0FA /* retro_transition_fade_to_centre.fsh in Resources */,
+				EE6E898128C21574005FEE8B /* BUDemoLanguage.strings in Resources */,
 				A950486220BAE29C0020ECD9 /* animated-nyan-squirrel.gif in Resources */,
 				A9A3139F20B022B100B36175 /* ScoreScene iPad.sks in Resources */,
 				A9ACB9762099B7AF00966991 /* click2.mp3 in Resources */,
@@ -737,12 +768,15 @@
 				EE6E896728C20C11005FEE8B /* BUDSwitchView.m in Sources */,
 				A9D4CFD7209AF515006461AF /* SKScene+SpriteUploader.swift in Sources */,
 				EE6E897328C2113A005FEE8B /* BUDNormalButton.m in Sources */,
+				EE6E897F28C214F8005FEE8B /* NSString+LocalizedString.m in Sources */,
 				A92E72EE209D87570015F647 /* ButtonNode.swift in Sources */,
 				A9092FA5216B35C800D773BC /* TriggleButtonNode.swift in Sources */,
 				A992D8B620A03B90003A9998 /* SceneOverlay.swift in Sources */,
 				A9ACB9232099A1F200966991 /* GameScene.swift in Sources */,
 				A9ACB98D2099F0FC00966991 /* Touchable.swift in Sources */,
 				A90192FB21F1BDF40020C612 /* PhysicsContactable.swift in Sources */,
+				EE6E897C28C21443005FEE8B /* BUDSelcetedItem.m in Sources */,
+				EE6E897928C213C1005FEE8B /* UIView+Draw.m in Sources */,
 				A9D4CFDD209B3A50006461AF /* PipeNode.swift in Sources */,
 				A9CCA26E20BBD5B5005795BD /* NyancatNode.swift in Sources */,
 				EE6E896C28C20E1E005FEE8B /* BUDExpressBannerViewController.m in Sources */,
@@ -753,6 +787,7 @@
 				EE6E896928C20CBD005FEE8B /* BUDBaseExampleViewController.m in Sources */,
 				A9ACB9252099A1F200966991 /* GameViewController.swift in Sources */,
 				A9B9F83620B449EC00FC0BDA /* Playable.swift in Sources */,
+				EE6E898428C2164C005FEE8B /* UIColor+DarkMode.m in Sources */,
 				A9ACB9872099E74600966991 /* BirdNode.swift in Sources */,
 				A9D4CFD9209AF53E006461AF /* SKTextureAtlas+FrameUploader.swift in Sources */,
 				A94A97F721A287890087C018 /* InfiniteSpriteScrollNode.swift in Sources */,
@@ -774,6 +809,7 @@
 				A9B9C729209EE31C0045548D /* TitleScene.swift in Sources */,
 				A950485820BADB7A0020ECD9 /* SKSpriteNode+GIF.swift in Sources */,
 				A9D0897920B97CA800BE2896 /* CharactersScene.swift in Sources */,
+				EE6E898728C216CE005FEE8B /* BUDExampleDefine.m in Sources */,
 				A941362320C4067C007FD610 /* Bool+PipeRandom.swift in Sources */,
 				A9EC756620A6D829007C42EC /* ScoresScene.swift in Sources */,
 			);
