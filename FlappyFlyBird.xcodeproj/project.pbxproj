@@ -92,6 +92,11 @@
 		A9EC756420A6D3E9007C42EC /* SettingsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EC756320A6D3E9007C42EC /* SettingsScene.swift */; };
 		A9EC756620A6D829007C42EC /* ScoresScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EC756520A6D829007C42EC /* ScoresScene.swift */; };
 		A9EC756820A6E479007C42EC /* RoutingUtilityScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EC756720A6E479007C42EC /* RoutingUtilityScene.swift */; };
+		EE6E895A28C206DE005FEE8B /* CSJAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6E895628C206DD005FEE8B /* CSJAdSDK.framework */; };
+		EE6E895B28C206DE005FEE8B /* BUAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6E895728C206DD005FEE8B /* BUAdSDK.framework */; };
+		EE6E895C28C206DE005FEE8B /* BURelyFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6E895828C206DD005FEE8B /* BURelyFoundation.framework */; };
+		EE6E895D28C206DE005FEE8B /* CSJAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE6E895928C206DD005FEE8B /* CSJAdSDK.bundle */; };
+		EE6E896128C2091A005FEE8B /* BUDAdManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6E896028C2091A005FEE8B /* BUDAdManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -182,6 +187,12 @@
 		A9EC756320A6D3E9007C42EC /* SettingsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScene.swift; sourceTree = "<group>"; };
 		A9EC756520A6D829007C42EC /* ScoresScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresScene.swift; sourceTree = "<group>"; };
 		A9EC756720A6E479007C42EC /* RoutingUtilityScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingUtilityScene.swift; sourceTree = "<group>"; };
+		EE6E895628C206DD005FEE8B /* CSJAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CSJAdSDK.framework; sourceTree = "<group>"; };
+		EE6E895728C206DD005FEE8B /* BUAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUAdSDK.framework; sourceTree = "<group>"; };
+		EE6E895828C206DD005FEE8B /* BURelyFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BURelyFoundation.framework; sourceTree = "<group>"; };
+		EE6E895928C206DD005FEE8B /* CSJAdSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CSJAdSDK.bundle; sourceTree = "<group>"; };
+		EE6E896028C2091A005FEE8B /* BUDAdManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BUDAdManager.m; sourceTree = "<group>"; };
+		EE6E896228C209B8005FEE8B /* BUDAdManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BUDAdManager.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,6 +200,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE6E895C28C206DE005FEE8B /* BURelyFoundation.framework in Frameworks */,
+				EE6E895A28C206DE005FEE8B /* CSJAdSDK.framework in Frameworks */,
+				EE6E895B28C206DE005FEE8B /* BUAdSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +293,7 @@
 			isa = PBXGroup;
 			children = (
 				A9ACB9962099F19E00966991 /* .gitignore */,
+				EE6E895528C206DD005FEE8B /* SDK */,
 				A9ACB91B2099A1F200966991 /* FlappyFlyBird */,
 				A9ACB91A2099A1F200966991 /* Products */,
 			);
@@ -295,6 +310,7 @@
 		A9ACB91B2099A1F200966991 /* FlappyFlyBird */ = {
 			isa = PBXGroup;
 			children = (
+				EE6E895E28C208AA005FEE8B /* Ad */,
 				A9ACB91C2099A1F200966991 /* AppDelegate.swift */,
 				A9ACB92E2099A1F300966991 /* Info.plist */,
 				A9ACB9932099F16800966991 /* Storyboards */,
@@ -544,6 +560,26 @@
 			path = "Main Scenes";
 			sourceTree = "<group>";
 		};
+		EE6E895528C206DD005FEE8B /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				EE6E895628C206DD005FEE8B /* CSJAdSDK.framework */,
+				EE6E895728C206DD005FEE8B /* BUAdSDK.framework */,
+				EE6E895828C206DD005FEE8B /* BURelyFoundation.framework */,
+				EE6E895928C206DD005FEE8B /* CSJAdSDK.bundle */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		EE6E895E28C208AA005FEE8B /* Ad */ = {
+			isa = PBXGroup;
+			children = (
+				EE6E896028C2091A005FEE8B /* BUDAdManager.m */,
+				EE6E896228C209B8005FEE8B /* BUDAdManager.h */,
+			);
+			path = Ad;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -576,7 +612,7 @@
 				TargetAttributes = {
 					A9ACB9182099A1F200966991 = {
 						CreatedOnToolsVersion = 9.3;
-						LastSwiftMigration = 1020;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -617,6 +653,7 @@
 				A9ACB9742099B7AF00966991 /* click1.mp3 in Resources */,
 				A9A3139920B0006400B36175 /* TitleScene iPad.sks in Resources */,
 				A935954D20C27B81000FF0FA /* retro_transition_fade_from_top.fsh in Resources */,
+				EE6E895D28C206DE005FEE8B /* CSJAdSDK.bundle in Resources */,
 				A950486420BAE29C0020ECD9 /* animated-jazz-nyan.gif in Resources */,
 				A9ACB91F2099A1F200966991 /* GameScene.sks in Resources */,
 				A9CA8F74209C954E004CB9D4 /* Hit_Hurt.wav in Resources */,
@@ -681,6 +718,7 @@
 				A9D4CFD9209AF53E006461AF /* SKTextureAtlas+FrameUploader.swift in Sources */,
 				A94A97F721A287890087C018 /* InfiniteSpriteScrollNode.swift in Sources */,
 				A9ACB99F209A0F4D00966991 /* GameSceneAdapter.swift in Sources */,
+				EE6E896128C2091A005FEE8B /* BUDAdManager.m in Sources */,
 				A92E72E4209D81820015F647 /* GameOverState.swift in Sources */,
 				A9ACB99C209A0DE100966991 /* CGFloat+MathUtils.swift in Sources */,
 				A9ACB9992099F1D200966991 /* PhysicsCategories.swift in Sources */,
@@ -843,8 +881,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S6RN27NCB5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDK",
+				);
 				GCC_OPTIMIZATION_LEVEL = 2;
 				INFOPLIST_FILE = "$(SRCROOT)/FlappyFlyBird/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
@@ -865,8 +908,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S6RN27NCB5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDK",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/FlappyFlyBird/Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.arcade-games";
 				LD_RUNPATH_SEARCH_PATHS = (
