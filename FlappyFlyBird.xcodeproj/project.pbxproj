@@ -96,6 +96,7 @@
 		EE6E895B28C206DE005FEE8B /* BUAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6E895728C206DD005FEE8B /* BUAdSDK.framework */; };
 		EE6E895C28C206DE005FEE8B /* BURelyFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6E895828C206DD005FEE8B /* BURelyFoundation.framework */; };
 		EE6E895D28C206DE005FEE8B /* CSJAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE6E895928C206DD005FEE8B /* CSJAdSDK.bundle */; };
+		EE6E899A28C226D8005FEE8B /* DAdHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6E899928C226D8005FEE8B /* DAdHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -190,6 +191,9 @@
 		EE6E895728C206DD005FEE8B /* BUAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUAdSDK.framework; sourceTree = "<group>"; };
 		EE6E895828C206DD005FEE8B /* BURelyFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BURelyFoundation.framework; sourceTree = "<group>"; };
 		EE6E895928C206DD005FEE8B /* CSJAdSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CSJAdSDK.bundle; sourceTree = "<group>"; };
+		EE6E899728C226BE005FEE8B /* DAdHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAdHandler.h; sourceTree = "<group>"; };
+		EE6E899828C226D8005FEE8B /* FlappyFlyBird-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlappyFlyBird-Bridging-Header.h"; sourceTree = "<group>"; };
+		EE6E899928C226D8005FEE8B /* DAdHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAdHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -571,6 +575,9 @@
 		EE6E895E28C208AA005FEE8B /* Ad */ = {
 			isa = PBXGroup;
 			children = (
+				EE6E899728C226BE005FEE8B /* DAdHandler.h */,
+				EE6E899928C226D8005FEE8B /* DAdHandler.m */,
+				EE6E899828C226D8005FEE8B /* FlappyFlyBird-Bridging-Header.h */,
 			);
 			path = Ad;
 			sourceTree = "<group>";
@@ -701,6 +708,7 @@
 				A9ACB9232099A1F200966991 /* GameScene.swift in Sources */,
 				A9ACB98D2099F0FC00966991 /* Touchable.swift in Sources */,
 				A90192FB21F1BDF40020C612 /* PhysicsContactable.swift in Sources */,
+				EE6E899A28C226D8005FEE8B /* DAdHandler.m in Sources */,
 				A9D4CFDD209B3A50006461AF /* PipeNode.swift in Sources */,
 				A9CCA26E20BBD5B5005795BD /* NyancatNode.swift in Sources */,
 				A9CC5C3720A0216500040E61 /* ControlInputDirection.swift in Sources */,
@@ -892,6 +900,7 @@
 				MARKETING_VERSION = 1.4.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luomor.flappy-fly-bird";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlappyFlyBird/Ad/FlappyFlyBird-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -918,6 +927,7 @@
 				MARKETING_VERSION = 1.4.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.luomor.flappy-fly-bird";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FlappyFlyBird/Ad/FlappyFlyBird-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
