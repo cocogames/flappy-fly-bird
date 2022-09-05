@@ -92,11 +92,14 @@
 		A9EC756420A6D3E9007C42EC /* SettingsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EC756320A6D3E9007C42EC /* SettingsScene.swift */; };
 		A9EC756620A6D829007C42EC /* ScoresScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EC756520A6D829007C42EC /* ScoresScene.swift */; };
 		A9EC756820A6E479007C42EC /* RoutingUtilityScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EC756720A6E479007C42EC /* RoutingUtilityScene.swift */; };
+		EE4C16BE28C57A4F00145C95 /* DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4C16BD28C57A4F00145C95 /* DemoApp.swift */; };
+		EE4C16C028C57B9800145C95 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4C16BF28C57B9800145C95 /* ContentView.swift */; };
 		EE6E895A28C206DE005FEE8B /* CSJAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6E895628C206DD005FEE8B /* CSJAdSDK.framework */; };
 		EE6E895B28C206DE005FEE8B /* BUAdSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6E895728C206DD005FEE8B /* BUAdSDK.framework */; };
 		EE6E895C28C206DE005FEE8B /* BURelyFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE6E895828C206DD005FEE8B /* BURelyFoundation.framework */; };
 		EE6E895D28C206DE005FEE8B /* CSJAdSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE6E895928C206DD005FEE8B /* CSJAdSDK.bundle */; };
 		EE6E899A28C226D8005FEE8B /* DAdHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6E899928C226D8005FEE8B /* DAdHandler.m */; };
+		EE6E899E28C23AB7005FEE8B /* DSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6E899D28C23AB7005FEE8B /* DSplashView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -187,6 +190,8 @@
 		A9EC756320A6D3E9007C42EC /* SettingsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScene.swift; sourceTree = "<group>"; };
 		A9EC756520A6D829007C42EC /* ScoresScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresScene.swift; sourceTree = "<group>"; };
 		A9EC756720A6E479007C42EC /* RoutingUtilityScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingUtilityScene.swift; sourceTree = "<group>"; };
+		EE4C16BD28C57A4F00145C95 /* DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoApp.swift; sourceTree = "<group>"; };
+		EE4C16BF28C57B9800145C95 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EE6E895628C206DD005FEE8B /* CSJAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CSJAdSDK.framework; sourceTree = "<group>"; };
 		EE6E895728C206DD005FEE8B /* BUAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BUAdSDK.framework; sourceTree = "<group>"; };
 		EE6E895828C206DD005FEE8B /* BURelyFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BURelyFoundation.framework; sourceTree = "<group>"; };
@@ -194,6 +199,7 @@
 		EE6E899728C226BE005FEE8B /* DAdHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DAdHandler.h; sourceTree = "<group>"; };
 		EE6E899828C226D8005FEE8B /* FlappyFlyBird-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlappyFlyBird-Bridging-Header.h"; sourceTree = "<group>"; };
 		EE6E899928C226D8005FEE8B /* DAdHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DAdHandler.m; sourceTree = "<group>"; };
+		EE6E899D28C23AB7005FEE8B /* DSplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -578,6 +584,9 @@
 				EE6E899728C226BE005FEE8B /* DAdHandler.h */,
 				EE6E899928C226D8005FEE8B /* DAdHandler.m */,
 				EE6E899828C226D8005FEE8B /* FlappyFlyBird-Bridging-Header.h */,
+				EE6E899D28C23AB7005FEE8B /* DSplashView.swift */,
+				EE4C16BD28C57A4F00145C95 /* DemoApp.swift */,
+				EE4C16BF28C57B9800145C95 /* ContentView.swift */,
 			);
 			path = Ad;
 			sourceTree = "<group>";
@@ -701,6 +710,7 @@
 			files = (
 				A9E14DAF20B1764B0075D725 /* SKEmitterNode+Utils.swift in Sources */,
 				A9EC756820A6E479007C42EC /* RoutingUtilityScene.swift in Sources */,
+				EE4C16C028C57B9800145C95 /* ContentView.swift in Sources */,
 				A9D4CFD7209AF515006461AF /* SKScene+SpriteUploader.swift in Sources */,
 				A92E72EE209D87570015F647 /* ButtonNode.swift in Sources */,
 				A9092FA5216B35C800D773BC /* TriggleButtonNode.swift in Sources */,
@@ -713,10 +723,12 @@
 				A9CCA26E20BBD5B5005795BD /* NyancatNode.swift in Sources */,
 				A9CC5C3720A0216500040E61 /* ControlInputDirection.swift in Sources */,
 				A9D4CFDB209AFA06006461AF /* GameSceneProtocol.swift in Sources */,
+				EE6E899E28C23AB7005FEE8B /* DSplashView.swift in Sources */,
 				A9ACB98B2099F0D300966991 /* Updatable.swift in Sources */,
 				A92E72E6209D818B0015F647 /* PausedState.swift in Sources */,
 				A9ACB9252099A1F200966991 /* GameViewController.swift in Sources */,
 				A9B9F83620B449EC00FC0BDA /* Playable.swift in Sources */,
+				EE4C16BE28C57A4F00145C95 /* DemoApp.swift in Sources */,
 				A9ACB9872099E74600966991 /* BirdNode.swift in Sources */,
 				A9D4CFD9209AF53E006461AF /* SKTextureAtlas+FrameUploader.swift in Sources */,
 				A94A97F721A287890087C018 /* InfiniteSpriteScrollNode.swift in Sources */,
